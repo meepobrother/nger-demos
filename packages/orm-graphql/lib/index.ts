@@ -59,7 +59,7 @@ platform.bootstrapModule(AppModule).then(async res => {
     const server = new ApolloServer({
         schema: await graphql.getSchema(),
         playground: true
-    })
+    });
     const midleware = server.getMiddleware();
     app.get('/graphql', midleware);
     app.listen(port, `0.0.0.0`, () => {
