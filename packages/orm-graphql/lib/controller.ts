@@ -5,12 +5,8 @@ export class DemoController {
     constructor(private graphql: PgGraphql) { }
     @Post('/graphql')
     handlerPg(
-        @Body({
-            property: `query`
-        }) query: string,
-        @Body({
-            property: 'variables'
-        }) variables: any
+        @Body(`query`) query: string,
+        @Body(`variables`) variables: any
     ) {
         return this.graphql.query(query, variables)
     }
