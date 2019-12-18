@@ -1,0 +1,37 @@
+{
+  "name": "orm-graphql",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "imeepos <1037483576@qq.com>",
+  "homepage": "https://github.com/meepobrother/nger-demos#readme",
+  "license": "ISC",
+  "main": "lib/orm-graphql.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meepobrother/nger-demos.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/meepobrother/nger-demos/issues"
+  },
+  "dependencies": {
+    "@nger/core": "^1.8.4",
+    "@nger/orm.core": "^1.1.0",
+    "@nger/pg-graphql": "^1.1.0",
+    "@nger/platform.express": "^1.1.8",
+    "apollo-server": "^2.9.14",
+    "express": "^4.17.1"
+  }
+}
