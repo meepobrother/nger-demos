@@ -27,10 +27,10 @@
     "url": "https://github.com/meepobrother/nger-demos/issues"
   },
   "dependencies": {
-    "@nger/core": "^1.8.4",
-    "@nger/platform.core": "^1.1.0",
-    "@nger/rx.effects": "^1.0.9",
-    "@nger/rx.store": "^1.0.9",
+    "@nger/core": "^1.8.12",
+    "@nger/platform.core": "^1.1.2",
+    "@nger/rx.effects": "^1.0.10",
+    "@nger/rx.store": "^1.0.11",
     "rxjs": "^6.5.3"
   }
 }

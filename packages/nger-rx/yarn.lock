@@ -2,13 +2,14 @@
 # yarn lockfile v1
 
 
-"@nger/core@^1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@nger/core/-/core-1.8.4.tgz#5cd3cec254f8b79173d424e36ef5f3004333cf18"
-  integrity sha512-dkG5i1iwpE8O5xKooVLY+9S6iPqdMdJDwyV6MEI1FB38moPwL9mIN5bKXIpPYwdbBzwgZmNF+qQ+6TNn+GxqQw==
+"@nger/core@^1.8.12", "@nger/core@^1.8.7":
+  version "1.8.12"
+  resolved "https://registry.yarnpkg.com/@nger/core/-/core-1.8.12.tgz#ba72056ffdfe352ee231125726893d6d52444b9f"
+  integrity sha512-4bL+3Iy5jp2LSeugCcPfv4C7GX91paXBsdtxccOqgN4acj957kGYTgvKWTz5RMN82AqwRC049jFIatcTIAGRDw==
   dependencies:
     "@nger/decorator" "^1.1.12"
-    "@nger/di" "^1.5.2"
+    "@nger/di" "^1.5.7"
+    http-status-codes "^1.4.0"
     rxjs "^6.5.3"
 
 "@nger/decorator@^1.1.12":
@@ -18,38 +19,42 @@
   dependencies:
     reflect-metadata "^0.1.13"
 
-"@nger/di@^1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@nger/di/-/di-1.5.2.tgz#de82d5732347215b472a16fa3ef4053e370f8223"
-  integrity sha512-aKsMtIicdo7g47v52fHllKg9Do2uJcqfM9KKLhXbWJxXkY+A3p7xJNEA9V3a0zleDZVrcmunaOhJPAOo9wSOhA==
+"@nger/di@^1.5.7":
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/@nger/di/-/di-1.5.7.tgz#bcc92b5ca317a9400a6dc3be0d6f3973c7a2de6e"
+  integrity sha512-CNNqFxTFp2Ir7kvAMxhcMVeXene5SH4O9jQbVTkvvJP1es/dt0Pr4VFltMkaE6wW1dAMyr1RhZ5bzYRdOuJy+A==
   dependencies:
     "@nger/decorator" "^1.1.12"
 
-"@nger/platform.core@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@nger/platform.core/-/platform.core-1.1.0.tgz#48214ef28ffbfdb3f976e20bea6a2b3a0d966132"
-  integrity sha512-zLCwSM5xLOh5cXDhsEoKxM/CPBJuiFxawKjrIh1X49UGVIBvL0Z2SCz6NNz2OTuqnMvn/F1hUNaFh67ru0xWEA==
+"@nger/platform.core@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@nger/platform.core/-/platform.core-1.1.2.tgz#70f6797f3804591ced5dee781bc3b1e763870d1a"
+  integrity sha512-LA9ubJa3Ae8kR7V8MDBeUcVPCH9TKHRnJz+1RYCLc/XBpiClrOsWHiXKuQXy0C9ZWpiqjWJVkgqiMVdVgnEn9g==
   dependencies:
-    "@nger/core" "^1.8.4"
-    "@nger/rx.effects" "^1.0.9"
-    "@nger/rx.store" "^1.0.9"
+    "@nger/core" "^1.8.12"
+    "@nger/rx.store" "^1.0.11"
 
-"@nger/rx.effects@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@nger/rx.effects/-/rx.effects-1.0.9.tgz#d40ef0e6bcebebcf275d2e1add07794fb7757e43"
-  integrity sha512-C2kzd7dO7X4p6siyFZlLjIH7vbeQ8djncn73nwbvWGGR43T61+RF5MBCTE70Xh4EhAvntACIrLZOUe7y5kRlyQ==
+"@nger/rx.effects@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@nger/rx.effects/-/rx.effects-1.0.10.tgz#d3986ae0b5bcee3fb40371f30322f373b897c641"
+  integrity sha512-LdcIgowxcVILcHHTOeriQqmFOc+MW7zxY9aTor2YVTyVVuoJO6znnMN2RcSxjDEweH2QF1eTxxa+1Hw5QOu+VA==
   dependencies:
-    "@nger/core" "^1.8.4"
-    "@nger/rx.store" "^1.0.9"
+    "@nger/core" "^1.8.7"
+    "@nger/rx.store" "^1.0.11"
     rxjs "^6.5.3"
 
-"@nger/rx.store@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@nger/rx.store/-/rx.store-1.0.9.tgz#5fdd26aaf9260e6918d5bb9edc3b88e01c94b47e"
-  integrity sha512-zgs4A68WY/mUVv7fEXk8LNc5c4mTX8np/YL96GXAT+nEqc28lhx4d/nyBNJMuxp0EbDuVd2+6dITT3rPn3u2Rg==
+"@nger/rx.store@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@nger/rx.store/-/rx.store-1.0.11.tgz#c1f38caa52bced17c4ba9947f70496a493515e75"
+  integrity sha512-fdp/ayt2v3gomcBO62pAr5JrUH6W2hwYeFaaiagMgsj/4mYnoAJutEdQtwUdOnlXU5G375ovYw4gSb31mgVetg==
   dependencies:
-    "@nger/core" "^1.8.4"
+    "@nger/core" "^1.8.7"
     rxjs "^6.5.3"
+
+http-status-codes@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/http-status-codes/-/http-status-codes-1.4.0.tgz#6e4c15d16ff3a9e2df03b89f3a55e1aae05fb477"
+  integrity sha512-JrT3ua+WgH8zBD3HEJYbeEgnuQaAnUeRRko/YojPAJjGmIfGD3KPU/asLdsLwKjfxOmQe5nXMQ0pt/7MyapVbQ==
 
 reflect-metadata@^0.1.13:
   version "0.1.13"

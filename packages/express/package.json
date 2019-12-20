@@ -28,7 +28,7 @@
     },
     "dependencies": {
         "@nger/core": "^1.8.12",
-        "@nger/platform.express": "^1.1.9",
+        "@nger/platform.express": "^1.1.10",
         "@types/node": "^12.12.21",
         "ts-node": "^8.5.4",
         "tsconfig-paths": "^3.9.0",
