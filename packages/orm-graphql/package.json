@@ -31,7 +31,7 @@
     "@nger/orm.core": "^1.1.1",
     "@nger/pg-graphql": "^1.1.1",
     "@nger/platform.express": "^1.1.10",
-    "apollo-server": "^2.9.14",
+    "apollo-server": "^2.25.4",
     "express": "^4.17.1"
   }
 }
